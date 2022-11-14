@@ -162,6 +162,13 @@ class _registerState extends State<register> {
               SizedBox(
                 height: 10.0,
               ),
+
+              Container(
+                child: Text('this is githup project'),
+              ),
+              SizedBox(
+                height: 10.0,
+              ),
               Container(
                 child: TextField(
                   controller: _usernamecontroller,
@@ -271,7 +278,9 @@ class _registerState extends State<register> {
                           child: Text(
                             'Reset',
                           )),
-                    )
+                    ),
+
+
                   ],
                 ),
               )
